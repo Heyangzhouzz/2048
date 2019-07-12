@@ -13,13 +13,14 @@
 	margin: 0 auto;
 }
 #header{
+	display: flex;
+	align-items: center;
 	width: 100%;
 	background-color: #FAF8EF;
 }
 #header h1{
 	width: 40%;
 	margin: 10px 20px;
-	float: left;
 	font-weight: bolder;
 	height: 70px;
 	text-align: center;
@@ -29,7 +30,6 @@
 }
 .record{
 	height: 70px;
-	float: left;
 	width: 110px;
 	margin: 10px 10px;
 	font-family: "微软雅黑";
@@ -41,9 +41,11 @@
 .record span{
 	height: 20px;
 	width: 110px;
-	display: inline-block;
-	
+	display: inline-block;	
 	color:#E7D8C3;
+}
+.git{
+	vertical-align: middle;
 }
 .record div{
 	line-height: 50px;
